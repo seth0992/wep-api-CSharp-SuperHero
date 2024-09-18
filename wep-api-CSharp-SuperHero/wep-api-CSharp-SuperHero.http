@@ -1,6 +1,16 @@
+@wep-api-CSharp-SuperHero_HostAddress = http://localhost:5117
 @wep_api_CSharp_SuperHero_HostAddress = http://localhost:5117
 
 GET {{wep_api_CSharp_SuperHero_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+
+POST {{wep-api-CSharp-SuperHero_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
 
 ###
